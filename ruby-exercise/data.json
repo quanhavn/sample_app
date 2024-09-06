@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "abc",
+      "password": "123456",
+      "role": "admin"
+    }
+  ],
+  "computers": [
+    {
+      "name": "Lattitude",
+      "price": 1000,
+      "brand": "Dell"
+    }
+  ]
+}
