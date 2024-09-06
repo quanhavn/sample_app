@@ -13,14 +13,14 @@ end
 puts "Mảng đã nhập: #{array}"
 puts "Gia tri nho nhat trong mang la: #{array.min}"
 
-average = array.sum.to_f / array.size
+average = array.sum / array.size
 puts "Gia tri trung bing cua mang la: #{average}"
 
-total = array.inject(:+)
-puts "Tong cua mang la: #{total}"
+sum = array.inject(:+)
+puts "Tong cua mang la: #{sum}"
 
-greater_than_10 = array.select { |num| num > 10 }
-puts "Các phần tử có giá trị > 10 là: #{greater_than_10}"
+elements_greater_than_10 = array.select { |num| num > 10 }
+puts "Các phần tử có giá trị > 10 là: #{elements_greater_than_10}"
 
 first_greater_than_10 = array.find { |num| num > 10 }
 if first_greater_than_10
