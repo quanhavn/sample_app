@@ -10,4 +10,4 @@ array.each do |value|
    new_hash[zone] <<  "#{district} - #{city}"
 end
 
-puts new_hash
+puts new_hash.transform_values { |v| v.join(", ") }
