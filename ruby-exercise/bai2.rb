@@ -1,19 +1,3 @@
-# students = {
-#   1 => "Nguyen Van A",
-#   2 => "Nguyen Van B",
-#   3 => "Nguyen Van C",
-#   4 => "Nguyen Van D",
-#   5 => "Nguyen Van E",
-#   6 => "Nguyen Van F"
-# }
-
-# puts "Nhap ma sinh vien tu 1 -> 6 de lay ra ten sinh vien"
-
-# n = gets.chomp.to_i
-
-# puts "Ten sinh vien la: '#{students[n]}'"
-
-
 students = {}
 
 100.times do |i|
