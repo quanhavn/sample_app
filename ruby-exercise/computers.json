@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "Computer1",
+      "specs": "Intel i5, 8GB RAM, 256GB SSD"
+    },
+    {
+      "id": 2,
+      "name": "Computer2",
+      "specs": "Intel i7, 16GB RAM, 512GB SSD"
+    }
+  ]
+  
