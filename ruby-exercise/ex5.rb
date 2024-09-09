@@ -4,8 +4,7 @@ File.join(__dir__, 'data.json')
 
 # Ham doc du lieu
 def read_data
-  file = File.read(file_path)
-  JSON.parse(file)
+  JSON.parse(File.read(file_path))
 end
 
 # Ham ghi du lieu
