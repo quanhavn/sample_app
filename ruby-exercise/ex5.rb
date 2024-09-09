@@ -1,13 +1,17 @@
 require 'json'
+
+File.join(__dir__, 'data.json')
+
 # Ham doc du lieu
 def read_data
-  file = File.read('/home/mailinh/code/sample_app/ruby-exercise/data.json')
+  file_path = File.join(__dir__, 'data.json')
+  file = File.read(file_path)
   JSON.parse(file)
 end
 
 # Ham ghi du lieu
 def write_data(data)
-  File.open('/home/mailinh/code/sample_app/ruby-exercise/data.json', 'w') do |file|
+  File.open(file_path, 'w') do |file|
     file.write(JSON.pretty_generate(data))
   end
 end
