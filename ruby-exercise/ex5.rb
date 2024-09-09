@@ -4,7 +4,6 @@ File.join(__dir__, 'data.json')
 
 # Ham doc du lieu
 def read_data
-  file_path = File.join(__dir__, 'data.json')
   file = File.read(file_path)
   JSON.parse(file)
 end
