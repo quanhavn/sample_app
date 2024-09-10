@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "username": "user1",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "computers": [
+    {
+      "id": 1,
+      "name": "LaptopA",
+      "spec": "16GB RAM, i7 CPU"
+    },
+    {
+      "id": 2,
+      "name": "DesktopB",
+      "spec": "32GB RAM, Ryzen 9"
+    },
+    {
+      "id": 3,
+      "name": "Desktop1111",
+      "spec": "12GB, i5"
+    }
+  ]
+}
