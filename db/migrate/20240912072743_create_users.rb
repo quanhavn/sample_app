@@ -1,7 +1,4 @@
 class CreateUsers < ActiveRecord::Migration[7.1]
-  def drop_users
-    drop_table :users
-  end
 
   def change
     create_table :users do |t|
