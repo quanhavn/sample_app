@@ -42,7 +42,7 @@ class UserTest < ActiveSupport::TestCase
     mix_case_email = "Fpp@Example.COM"
     @user.email = mix_case_email
     @user.save
-    assert_equal mix_case_email.downcase, @user.email
+    assert_equal mix_case_email.downcase, @user.reload.email
   end
   test "password should be present (nonblank)" do 
     @user.password = @user.password_confirmation = " " * 6
